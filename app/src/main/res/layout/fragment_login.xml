@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".ui.LoginFragment.LoginFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <RelativeLayout
+            android:id="@+id/main_LBL_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/main_LBL_tindog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="TinDog"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/welcome_LBL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/main_LBL_tindog"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="50dp"
+                android:text="Welcome to Tindog!"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/login_LBL_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/welcome_LBL"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"
+                android:autofillHints="Email"
+                android:drawablePadding="8dp"
+                android:hint="Email"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/login_LBL_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/login_LBL_email"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:autofillHints="Password"
+                android:drawablePadding="8dp"
+                android:hint="Password"
+                android:padding="8dp" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/login_BTN_main"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_below="@id/login_LBL_password"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bone" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

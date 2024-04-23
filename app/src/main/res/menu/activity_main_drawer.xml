@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/dogprofile"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_dogsitter"
+            android:icon="@drawable/dog"
+            android:title="@string/menu_dogsitter" />
+        <item
+            android:id="@+id/nav_playdate"
+            android:icon="@drawable/dog_training"
+            android:title="@string/menu_playdate" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/chat_bubble"
+            android:title="@string/menu_chats" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/wave"
+            android:title="@string/stop_logout" />
+    </group>
+
+
+</menu>

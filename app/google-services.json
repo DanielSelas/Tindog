@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "442903155874",
+    "firebase_url": "https://tindog-7d23a-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "tindog-7d23a",
+    "storage_bucket": "tindog-7d23a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442903155874:android:4901e4cfe09c515fde73fb",
+        "android_client_info": {
+          "package_name": "com.danielsela.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRqViW3085GdQTHP_BpdRnYnPvp2Ma6j0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

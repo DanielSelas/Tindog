@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TinDog</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_dogsitter">DogSitter</string>
+    <string name="menu_playdate">PlayDate</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="start_login">Login</string>
+    <string name="stop_logout">Logout</string>
+    <string name="menu_chats">Chats</string>
+    <string name="chat">ChatLogs</string>
+    <string name="menu_chatting">Chat</string>
+
+
+
+</resources>
